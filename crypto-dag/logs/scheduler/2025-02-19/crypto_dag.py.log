@@ -1,0 +1,85 @@
+[2025-02-19T19:13:07.389+0000] {processor.py:186} INFO - Started process (PID=37) to work on /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:13:07.389+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-02-19T19:13:07.391+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:13:07.391+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:13:07.396+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:13:07.395+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+ModuleNotFoundError: No module named 'ccxt'
+[2025-02-19T19:13:07.396+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:13:07.407+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.022 seconds
+[2025-02-19T19:13:37.650+0000] {processor.py:186} INFO - Started process (PID=44) to work on /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:13:37.650+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-02-19T19:13:37.654+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:13:37.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:13:37.661+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:13:37.660+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+ModuleNotFoundError: No module named 'ccxt'
+[2025-02-19T19:13:37.661+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:13:37.676+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.034 seconds
+[2025-02-19T19:14:07.897+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:14:07.897+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-02-19T19:14:07.899+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:14:07.899+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:14:07.902+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:14:07.902+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/crypto_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/crypto_dag.py", line 6, in <module>
+    import ccxt
+ModuleNotFoundError: No module named 'ccxt'
+[2025-02-19T19:14:07.903+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:14:07.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.020 seconds
+[2025-02-19T19:17:16.251+0000] {processor.py:186} INFO - Started process (PID=35) to work on /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:17:16.252+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-02-19T19:17:16.252+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.252+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:17:16.778+0000] {processor.py:925} INFO - DAG(s) 'crypto_dag' retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:17:16.895+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.895+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:crypto_dag
+[2025-02-19T19:17:16.898+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.898+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:crypto_dag
+[2025-02-19T19:17:16.900+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.900+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:crypto_dag
+[2025-02-19T19:17:16.901+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.901+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:crypto_dag
+[2025-02-19T19:17:16.903+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.903+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:crypto_dag
+[2025-02-19T19:17:16.905+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.905+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:crypto_dag
+[2025-02-19T19:17:16.907+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.907+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:crypto_dag
+[2025-02-19T19:17:16.907+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.907+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-19T19:17:16.911+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.911+0000] {dag.py:3262} INFO - Creating ORM DAG for crypto_dag
+[2025-02-19T19:17:16.915+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:16.915+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_dag to 2025-02-19 18:00:00+00:00, run_after=2025-02-19 19:00:00+00:00
+[2025-02-19T19:17:16.921+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.678 seconds
+[2025-02-19T19:17:47.208+0000] {processor.py:186} INFO - Started process (PID=51) to work on /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:17:47.210+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-02-19T19:17:47.213+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:47.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:17:47.614+0000] {processor.py:925} INFO - DAG(s) 'crypto_dag' retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:17:47.622+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:47.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-19T19:17:47.629+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:17:47.629+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_dag to 2025-02-19 19:00:00+00:00, run_after=2025-02-19 20:00:00+00:00
+[2025-02-19T19:17:47.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.433 seconds
+[2025-02-19T19:18:17.786+0000] {processor.py:186} INFO - Started process (PID=65) to work on /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:18:17.787+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-02-19T19:18:17.788+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:18:17.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:18:18.134+0000] {processor.py:925} INFO - DAG(s) 'crypto_dag' retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:18:18.142+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:18:18.141+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-19T19:18:18.149+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:18:18.149+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_dag to 2025-02-19 19:00:00+00:00, run_after=2025-02-19 20:00:00+00:00
+[2025-02-19T19:18:18.154+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.374 seconds
+[2025-02-19T19:18:48.483+0000] {processor.py:186} INFO - Started process (PID=73) to work on /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:18:48.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-02-19T19:18:48.485+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:18:48.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:18:48.856+0000] {processor.py:925} INFO - DAG(s) 'crypto_dag' retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:18:48.864+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:18:48.864+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-19T19:18:48.871+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:18:48.871+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_dag to 2025-02-19 19:00:00+00:00, run_after=2025-02-19 20:00:00+00:00
+[2025-02-19T19:18:48.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.399 seconds
+[2025-02-19T19:19:19.162+0000] {processor.py:186} INFO - Started process (PID=81) to work on /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:19:19.163+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/crypto_dag.py for tasks to queue
+[2025-02-19T19:19:19.165+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:19:19.164+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:19:19.543+0000] {processor.py:925} INFO - DAG(s) 'crypto_dag' retrieved from /opt/airflow/dags/crypto_dag.py
+[2025-02-19T19:19:19.553+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:19:19.552+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-19T19:19:19.560+0000] {logging_mixin.py:190} INFO - [2025-02-19T19:19:19.559+0000] {dag.py:4180} INFO - Setting next_dagrun for crypto_dag to 2025-02-19 19:00:00+00:00, run_after=2025-02-19 20:00:00+00:00
+[2025-02-19T19:19:19.565+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/crypto_dag.py took 0.408 seconds
