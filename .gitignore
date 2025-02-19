@@ -5,4 +5,5 @@
 logs/
 
 # Ignorer les fichiers de logs spécifiques à Airflow
-/opt/airflow/logs/
+airflowDemo/logs/
+crypto-dags/logs/
