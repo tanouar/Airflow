@@ -1,0 +1,8 @@
+# Ignorer tous les fichiers .log
+*.log
+
+# Ignorer les dossiers de logs courants
+logs/
+
+# Ignorer les fichiers de logs spécifiques à Airflow
+/opt/airflow/logs/
